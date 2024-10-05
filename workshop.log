@@ -1,11 +1,6 @@
-0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -DL -O11111114 -fo8 -N"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\workshop.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\" "workshop.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_C.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -DL -O11111114 -fo8 -N"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\lib\workshop.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\lib\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"C:\TPMICRO\xxxxxxxxxxxxxxxxxx\worksop\lib\" "workshop.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_C.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
 hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
-diagnostics: 0	122	Compilation Started	workshop.c
-diagnostics: 124	123	Compiled Successfully	workshop.c
-diagnostics: 0	127	All files Compiled in 47 ms	 
-hint: 0	1144	Used RAM (bytes): 85 (24%)  Free RAM (bytes): 267 (76%)	Used RAM (bytes): 85 (24%)  Free RAM (bytes): 267 (76%)
-hint: 0	1144	Used ROM (program words): 2027 (25%)  Free ROM (program words): 6165 (75%)	Used ROM (program words): 2027 (25%)  Free ROM (program words): 6165 (75%)
-diagnostics: 0	125	Project Linked Successfully	workshop.mcppi
-diagnostics: 0	128	Linked in 31 ms	 
-diagnostics: 0	129	Project 'workshop.mcppi' completed: 250 ms	 
-diagnostics: 0	103	Finished successfully: 05 oct. 2024, 17:42:19	workshop.mcppi
+error: 0	340	File 'workshop.c' not found	 
+diagnostics: 0	127	All files Compiled in 0 ms	 
+error: 0	357	main function is not defined	main function is not defined
+error: 0	102	Finished (with errors): 05 oct. 2024, 19:08:37	workshop.mcppi
